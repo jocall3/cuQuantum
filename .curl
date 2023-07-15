@@ -1,0 +1,6 @@
+‭curl --request POST \‬
+‭  --url https://partner.citi.com/gcgapi/sandbox/prod/api/clientCredentials/oauth2/token/us/gcb \‬
+‭  --header 'Authorization: Basic OGJKVjVBdTdCODBMMHlVaG1tTmNDem5hVEpLVkNZS0k6aE1TSHJRWVh4WkExN1VLdA==' \‬
+‭  --header 'accept: application/json' \‬
+‭  --header 'content-type: application/x-www-form-urlencoded' \‬
+‭  --data 'grant_type=client_credentials&scope=%2Fapi'‬
